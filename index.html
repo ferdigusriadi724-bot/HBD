@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HBD AVRIL</title>
+  <link rel="stylesheet" href="avril.css">
+</head>
+<body onclick="nextText()">
+
+<div id="container">
+  <p id="text">halo</p>
+</div>
+
+<button id="giftBtn" onclick="showGift(event)">
+  🎁 ambil nih kado
+</button>
+
+<div id="giftBox" onclick="openGift(event)">
+  🎁
+  <p class="hint" id="hint">ambil kadonya</p>
+</div>
+
+<div id="result">
+  <canvas id="confetti"></canvas>
+
+  <div class="card">
+    <img id="photo" class="photo">
+    <h1> HBD AVRIL </h1>
+    <p id="finalText"></p>
+  </div>
+</div>
+
+<audio id="clickSound" src="click.mp3"></audio>
+<audio id="boomSound" src="boom.mp3"></audio>
+
+<script src="avril.js"></script>
+</body>
+</html>
